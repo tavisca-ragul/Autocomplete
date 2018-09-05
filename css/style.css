@@ -1,0 +1,54 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	display: block;
+	width: 1024px;
+	margin: 0px auto;
+}
+
+li {
+	list-style-type: none;
+	padding: 5px;
+}
+
+.searchbox {
+	display: block;
+	width: 60%;
+	margin: 0px auto;
+}
+
+.title {
+	text-align: center;
+	color: #DE7963;
+	padding: 20px 0px;
+}
+
+.field {
+	position: relative;
+}
+
+.text-box {
+	width: 100%;
+	padding: 10px 0px;
+	border: 0px;
+	border-bottom: 2px solid #DE7963;
+}
+
+.searchbox ul {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	background: #DE7963;
+	color: #FFFFFF;
+	max-height: 150px;
+	overflow: auto;
+}
+
+.searchbox li:hover {
+	background: #24617C;
+}
+
